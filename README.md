@@ -15,7 +15,8 @@ In this project was used hooks like **useState,useEffect,useContext** ,technolog
 **_Main Idea: Movies App with a search bar_**
 
 
-The Api used was : [TvMaze]("https://www.tvmaze.com/")
+The Api used was : [TvMaze](https://www.tvmaze.com/
+)
 
 First of all, I wanted an Movies/Shows App with a search bar that while User writes anything into it , the shows appear in  screen. Also when shows appear ,user can click in the show that user likes and show more info about it
 
