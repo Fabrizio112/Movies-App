@@ -1,0 +1,21 @@
+h1 {
+    font-size: 3rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+#search {
+    width: 50%;
+    color: black;
+    font-size: 1.5rem;
+}
+
+#container-shows {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    margin: 3rem 0rem;
+    gap: 3rem;
+    justify-items: center;
+    padding: 2rem;
+}
