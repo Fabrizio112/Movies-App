@@ -5,9 +5,16 @@ In this project was used hooks like **useState,useEffect,useContext** ,technolog
  _This proyect was built with the purpose of practising React_
 
 **_Note: Is resposive_**
+
+<p align="center">
+<img width="600px" heigth="600px" src="./Movie/src/assets/gif-eating-popcorn-title.gif" alt="Michael eating Popcorn">
+</p>
+
 ## How i thought about the project and its functioning
 
 **_Main Idea: Movies App with a search bar_**
+
+
 
 La API que utilice para este proyecto fue : [TvMaze]("https://www.tvmaze.com/")
 
@@ -28,6 +35,3 @@ Note: Tenia el problema de que si el usuario se encontraba en la pagina individu
 
 Para los estilos utilice SASS , ya que es una herramienta que me resulta muy comoda y eficiente de utilizar.
 
-<p align="center">
-<img width="600px" heigth="600px" src="./Movie/src/assets/gif-eating-popcorn-title.gif" alt="Michael eating Popcorn">
-</p>
