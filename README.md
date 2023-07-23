@@ -15,23 +15,22 @@ In this project was used hooks like **useState,useEffect,useContext** ,technolog
 **_Main Idea: Movies App with a search bar_**
 
 
+The Api used was : [TvMaze]("https://www.tvmaze.com/")
 
-La API que utilice para este proyecto fue : [TvMaze]("https://www.tvmaze.com/")
+First of all, I wanted an Movies/Shows App with a search bar that while User writes anything into it , the shows appear in  screen. Also when shows appear ,user can click in the show that user likes and show more info about it
 
-Primero que nada ,queria hacer una aplicacion de peliculas/shows que tenga una barra de busqueda y que al escribir algo en ella , vayan apareciendo los resultados en la pantalla. Y ademas queria que cuando aparezcan pudieras entrar a la pelicula/show que te interese y obtener mas informacion de esta
+First that i made was Search Bar . I focus on it functioning because it is the most "dificult" and main part in whole app. So I used a context for handle the general state that i called "search"
 
+Every character that user writes ,will  prompt a fetch where it fetch will bring shows/movies that are  more in line whit the contain into the navbar/state of the app.This results will storage in a new State called "Shows"
 
-Lo primero que construi fue la Barra de Busqueda y me enfoque en su funcionamiento , ya que es lo mas "complicado" de toda la app y lo principal. Utilize un contexto para poder manejar el estado general de la aplicacion, y al estado general lo llame "search"
+With the information contained into the "Shows" state ,be will render  the show cards
 
-Cada caracter que se escriba en la barra de busqueda va a provocar que se realice una peticion y se traigan los shows/peliculas que sean mas acordes a lo que posea la barra de busqueda/estado de la App , y estos resultados se almacenan en un nuevo estado llamado "Shows" .
+If the user wants to know more about any show , user clicks "view more" .It will cause that clicked show is stored in a new state called "ShowSelected"
 
-Con la informacion del estado "Shows" se renderizan las diferentes cards de cada show.
+With the information contained into the "ShowSelected" state, be will render the  individual information page  about the show.
 
-Si el usuario desea conocer mas sobre ese show , clickea el "view more" .Se almacena el show seleccionado en un estado llamado "ShowSelected" .
+Note: I had the problem that if user reloaded the page while user is in the individual information page ,content lost.So I decided store all the information about last show that the user clicks, in the Local Storage
 
-COn la informacion del "ShowSelected" se renderiza la page de la informacion individual del Show.
+For styles i used SASS because it is a very confortable and eficient tool for me
 
-Note: Tenia el problema de que si el usuario se encontraba en la pagina individual del show y recargaba se perdia el contenido . Asi que decidi almacenar en Local Storage la informacion del ultimo show que visita el usuario.
-
-Para los estilos utilice SASS , ya que es una herramienta que me resulta muy comoda y eficiente de utilizar.
 
