@@ -28,4 +28,6 @@ Note: Tenia el problema de que si el usuario se encontraba en la pagina individu
 
 Para los estilos utilice SASS , ya que es una herramienta que me resulta muy comoda y eficiente de utilizar.
 
-![Michael eating popcorn](./Movie/src/assets/gif-eating-popcorn-title.gif)
+<p align="center">
+<img width="600px" heigth="600px" src="./Movie/src/assets/gif-eating-popcorn-title.gif" alt="Michael eating Popcorn">
+</p>
