@@ -7,7 +7,7 @@ In this project was used hooks like **useState,useEffect,useContext** ,technolog
 **_Note: Is resposive_**
 
 <p align="center">
-<img width="600px" heigth="600px" src="./Movie/src/assets/gif-eating-popcorn-title.gif" alt="Michael eating Popcorn">
+<img width="600px" heigth="600px" src="src/assets/gif-eating-popcorn-title.gif" alt="Michael eating Popcorn">
 </p>
 
 ## How i thought about the project and its functioning
