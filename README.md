@@ -1,7 +1,7 @@
-# <p style="font-size:3rem;margin:0"><img style="padding-right:0.5rem" src='https://img.freepik.com/vector-premium/bandera-argentina-bandera-argentina-ilustracion-vectorial_685751-66.jpg' width="50px" >  <span>ESPAÑOL:</span></p> 
+# <img style="padding-right:0.5rem" src='https://img.freepik.com/vector-premium/bandera-argentina-bandera-argentina-ilustracion-vectorial_685751-66.jpg' width="50px" >  <span style="font-size:3rem">ESPAÑOL:</span>
 
 
-## <i align="center" style="font-size:2rem">APP DE PELICULAS DESARROLLADA  CON REACT</i>
+## 🎬 <i align="center" style="font-size:2rem">APP DE PELICULAS DESARROLLADA  CON REACT</i>
 
 En este proyecto se usaron hooks como **useState,useEffect,useContext** , tenologias como  **HTML,CSS,Javascript,React,Sass** y para el manejo de rutas **React Router**
 
@@ -12,7 +12,7 @@ En este proyecto se usaron hooks como **useState,useEffect,useContext** , tenolo
 <img width="600px" heigth="600px" src="src/assets/minions-shh.gif" alt="Michael eating Popcorn">
 </p>
 
-## Como se penso este proyecto y como funciona
+## 💡 Como se penso este proyecto y como funciona
 
 **_Idea Principal: Una app de peliculas con una barra de busqueda_**
 
@@ -41,9 +41,9 @@ Para los estilos utilice SASS por que me siento muy comodo trabajando con el y e
 --------------------------------------------------------
 
 
-# <p style="font-size:3rem;margin:0"><img style="padding-right:0.5rem" src="https://img.freepik.com/vector-premium/gran-bretana-bandera-bandera-inglaterra-vector-icono-reino-unido-bandera-gran-bretana-10-eps_800531-104.jpg" width="50px"> <span>ENGLISH:</span></p>
+# <img style="padding-right:0.5rem" src="https://img.freepik.com/vector-premium/gran-bretana-bandera-bandera-inglaterra-vector-icono-reino-unido-bandera-gran-bretana-10-eps_800531-104.jpg" width="50px"> <span  style="font-size:3rem">ENGLISH:</span>
 
-## <i align="center" style="font-size:2rem">MOVIES APP MADE WITH REACT</i>
+## 🍿 <i align="center" style="font-size:2rem">MOVIES APP MADE WITH REACT</i>
 
 In this project was used hooks like **useState,useEffect,useContext** ,technologies like **HTML,CSS,Javascript,React,Sass**  and for routes managment **React Router**
 
@@ -55,7 +55,7 @@ In this project was used hooks like **useState,useEffect,useContext** ,technolog
 <img width="600px" heigth="600px" src="src/assets/gif-eating-popcorn-title.gif" alt="Michael eating Popcorn">
 </p>
 
-## How i thought about the project and its functioning
+## 🤔 How i thought about the project and its functioning
 
 **_Main Idea: Movies App with a search bar_**
 
