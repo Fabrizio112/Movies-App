@@ -21,20 +21,20 @@ La api que se utilizo fue : [TvMaze](https://www.tvmaze.com/
 
 Primero que nada , queria realizar lo mencionado anteriormente en la idea principal. En la barra de busqueda queria que el usuario escriba algo alli y aparezca en pantalla el show buscado. Al aparecer los shows en pantalla , el usuario puede hacer click en ellos par poder ver mas informacion sobre ellos. 
 
-Primero comence haciendo la barra de busqueda. Me enfoque mucho en su funcionamiento que es lo mas "complicado" y lo principal de la app. Use un "context" para poder manejar el estado y lo llame a este estado principal **_"search"_**
+Primero comence haciendo la barra de busqueda. Me enfoque mucho en su funcionamiento que es lo mas "complicado" y lo principal de la app. Use un "context" para poder manejar el estado y lo llame a este estado principal **_"search"_**.
 
-Cada caracter que el ususario escriba , se realizara una peticion que va a traer los shows/peliculas que sean mas coherentes con la busqueda que se realizo o con lo que posea la barra de busqueda en ese momento. Los resultado se van a almacenar en un nuevo estado llamado **"shows"**
+Cada caracter que el ususario escriba , se realizara una peticion que va a traer los shows/peliculas que sean mas coherentes con la busqueda que se realizo o con lo que posea la barra de busqueda en ese momento. Los resultado se van a almacenar en un nuevo estado llamado **"shows"**.
 
-Con la informacion contenida dentro del estado "shows" , se renderizaran en pantalla las diferentes peliculas
+Con la informacion contenida dentro del estado "shows" , se renderizaran en pantalla las diferentes peliculas.
 
-Si el usuario quiere conocer mas sobre algun show/pelicula como mencione al principio puede realizar click  en el boton "ver mas" para ver mas informacion. Esto va a hacer que el show se almacene en un nuevo estado llamado   **_Showselected_**
+Si el usuario quiere conocer mas sobre algun show/pelicula como mencione al principio puede realizar click  en el boton "ver mas" para ver mas informacion. Esto va a hacer que el show se almacene en un nuevo estado llamado   **_Showselected_**.
 
 Con la informacion contenida dentro del estado "ShowSelected"
 se renderizara en pantalla la informacion individual del show/pelicula.
 
 Nota: Tuve un problema que cuando el usuario recargaba la pagina mientras se encontraba mirando la informacion de un show , el contenido se perdia por completo . Por lo tanto decidi almacenar la informacion del ultimo show/pelicula visto en el Local Storage.
 
-Para los estilos utilice SASS por que me siento muy comodo trabajando con el y es muy eficiente a mi punto de vista
+Para los estilos utilice SASS por que me siento muy comodo trabajando con el y es muy eficiente a mi punto de vista.
 
 
 --------------------------------------------------------
